@@ -1,0 +1,27 @@
+.box {
+    display: flex;
+
+}
+.btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border: 2px solid teal;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    border: 2px solid teal;
+}
+
+.indexEven {
+    background-color: red;
+    margin-top: 150px;
+}
+
+.indexOdd {
+    background-color: rebeccapurple;
+    margin-top: 250px;
+}
