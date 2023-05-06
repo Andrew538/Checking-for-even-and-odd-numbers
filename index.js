@@ -5,20 +5,20 @@ window.onload = function() {
     let date = new Date();
     let day = date.getDate();
 
-    let even = 'четный';
+    let even = 'четное';
     let odd = 'нечетное';
 
 
 
-    function evenDay(day){
-        if(day % 1 == 0 && day % 2 != 0){
-            console.log(day)
+    function evenDay(x){
+        if(x % 1 == 0 && x % 2 != 0){
+            console.log(x)
             return (
-                alert('Сегодня ' + `${odd}` + ' число ' + `${day}` + ',' + ' поэтому при клике по квадрату, он будет красного цвета')
+                alert('Сегодня ' + `${odd}` + ' число ' + `${x}` + ',' + ' поэтому при клике по квадрату, он будет красного цвета')
                 )
         } else {
              return (
-                alert('Сегодня ' + `${even}` + ' число ' + `${day}` + ',' + ' поэтому при клике по квадрату, он будет окрашен в цвет rebeccapurple') 
+                alert('Сегодня ' + `${even}` + ' число ' + `${x}` + ',' + ' поэтому при клике по квадрату, он будет окрашен в цвет rebeccapurple') 
             )
 
         }
